@@ -1,0 +1,10 @@
+# robots.txt for Shape Circle Converter
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://calc-tool-ten.vercel.app/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
