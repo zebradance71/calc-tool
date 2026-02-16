@@ -8,6 +8,7 @@ import { Calculator } from "@/components/features/Calculator";
 import { ExpertCommentary } from "@/components/features/ExpertCommentary";
 import { MaterialLinks } from "@/components/features/MaterialLinks";
 import { PDFReport } from "@/components/features/PDFReport";
+import { UseCases } from "@/components/features/UseCases";
 import {
   type Unit,
   shapeAreaFromRectangle,
@@ -114,6 +115,8 @@ export default function Page() {
           hexArea={hexArea}
           hexDiameter={hexDiameter}
         />
+
+        <UseCases />
         </article>
       </main>
 

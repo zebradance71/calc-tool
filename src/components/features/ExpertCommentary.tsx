@@ -64,15 +64,6 @@ export function ExpertCommentary() {
           </ul>
         </div>
 
-        <div className="rounded-lg border border-sky-200 bg-sky-50/50 p-3 text-[12px]">
-          <p className="font-semibold text-sky-900">💡 SEO向け補足情報</p>
-          <p className="mt-1 text-sky-800">
-            「四角形 円 換算 計算」「正六角形 面積 円」「丸棒 直径 選び方」などで検索される方は、
-            設計・製造現場で実務に携わるエンジニアや、DIY・工作愛好家の方が多いです。
-            本ツールは<strong>リアルタイム計算</strong>と<strong>図解付き</strong>で、
-            専門知識がなくても直感的に使える設計になっています。
-          </p>
-        </div>
       </div>
     </article>
   );
