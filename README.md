@@ -107,9 +107,9 @@ npm start
 `src/app/layout.tsx` の `metadata.verification.google` に検証コードを設定
 
 ### Google AdSense設定
-1. AdSense審査を申請
-2. 審査通過後、`src/app/layout.tsx` の `ca-pub-XXXXXXXXXXXXXXXX` を実際のAdSense IDに変更
-3. `src/components/layout/AdPlaceholder.tsx` のコメントを外して、広告ユニットIDを設定
+1. AdSense審査を申請（クライアントID: `ca-pub-7907240934096694` 設定済み）
+2. 審査通過後、AdSenseの管理画面で広告ユニットを作成
+3. `src/components/layout/AdPlaceholder.tsx` のコメントを外して、広告ユニットのスロットIDを設定
 
 ## 📄 ライセンス
 

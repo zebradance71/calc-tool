@@ -24,11 +24,14 @@ export function AdPlaceholder({ position }: { position: "header" | "footer" }) {
           <ins
             className="adsbygoogle"
             style={{ display: "block" }}
-            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-client="ca-pub-7907240934096694"
             data-ad-slot="YYYYYYYYYY"
             data-ad-format="auto"
             data-full-width-responsive="true"
           />
+          
+          ※ data-ad-slot の "YYYYYYYYYY" は、AdSenseの管理画面で
+          　広告ユニットを作成した際に発行されるスロットIDに置き換えてください。
         */}
         
         {/* プレースホルダー（審査通過後は削除） */}
