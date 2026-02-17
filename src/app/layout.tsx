@@ -87,6 +87,7 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-7907240934096694" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
